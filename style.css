@@ -1,0 +1,195 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("image/LanaDelRey.jpg");
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.calculator {
+    background-color: rgb(77, 1, 1, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+
+
+}
+
+h2 {
+    color: #ccc;
+}
+
+#display {
+    justify-content: center;
+    height: 60px;
+    text-align: right;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: rgb(182, 122, 122)
+}
+
+.buttons {
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 11px;
+
+}
+
+.btn {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(132, 113, 115);
+    color: white;
+    cursor: grab;
+
+}
+
+.btn:hover {
+    background-color: transparent;
+}
+
+.lyrics {
+    color: rgb(148, 0, 0);
+    font-family: fantasy;
+    font-size: 15px;
+    margin-left: 60px;
+    background-color: #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60px;
+    margin-right: 90px;
+    border-radius: 10px;
+    
+}
+
+.btn-clear {
+    color: black;
+}
+
+.btn-add {
+    color: black;
+}
+
+.btn-divide {
+    color: black;
+}
+
+.btn-percentage {
+    color: black;
+}
+
+.btn-subtract {
+    color: black;
+}
+
+.btn-multiply {
+    color: black;
+}
+
+.btn-sqrt {
+    color: black;
+}
+
+.btn-result {
+    color: black;
+}
+
+.btn-cbt {
+    color: black;
+}
+
+.btn-power {
+    color: black;
+}
+
+.btn-fac {
+    color: black;
+}
+
+.btn-rec {
+    color: black;
+}
+
+.btn-pi {
+    color: black;
+}
+
+
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+
+}
+
+
+.solver {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgb(77, 1, 1);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: rgb(132, 113, 115);
+    ;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #333;
+}

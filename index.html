@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+    <title>Hesap Makinesi</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+        <div>
+        <h1 style="color: rgb(32, 32, 32); font-family: cursive; font-size: 25px; margin-left: 95px;" >BEYZA YILMAZ</h1>
+        <p class="lyrics">“They say that the world was built for two <br>
+                           Only worth living if somebody is loving you”
+                        
+        </p>
+        <div class="calculator">
+            <h2 style="color: white;">Calculator</h2>
+            <input type=" text" id="display" disabled>
+            <div class="buttons">
+                <button class="btn btn-clear" onclick="clearDisplay()">C</button>
+                <button class="btn btn-add" onclick="appendToDisplay('+')">+</button>
+                <button class="btn btn-subtract" onclick="appendToDisplay('-')">-</button>
+                <button class="btn btn-multiply" onclick="appendToDisplay('*')">*</button>
+                
+                <button class="btn" onclick="appendToDisplay('7')">7</button>
+                <button class="btn" onclick="appendToDisplay('8')">8</button>
+                <button class="btn" onclick="appendToDisplay('9')">9</button>
+                <button class="btn btn-divide" onclick="appendToDisplay('/')">/</button>
+                                
+                <button class="btn" onclick="appendToDisplay('4')">4</button>
+                <button class="btn" onclick="appendToDisplay('5')">5</button>
+                <button class="btn" onclick="appendToDisplay('6')">6</button>
+                <button class="btn btn-percentage" onclick="calculatePercentage()">%</button>
+                                
+                <button class="btn" onclick="appendToDisplay('1')">1</button>
+                <button class="btn" onclick="appendToDisplay('2')">2</button>
+                <button class="btn" onclick="appendToDisplay('3')">3</button>
+                <button class="btn btn-sqrt" onclick="calculateSquareRoot()">√</button>
+                                   
+                <button class="btn" onclick="appendToDisplay('.')">.</button>
+                <button class="btn" onclick="appendToDisplay('0')">0</button>
+                
+                <button class="btn" onclick="calculateResult()">=</button>
+                <button class="btn btn-cbt" onclick="calculateCubeRoot()">∛</button>
+                  
+                <button class="btn btn-power" onclick="appendToDisplay('**')">xⁿ</button>
+                <button class="btn btn-fac" onclick="calculateFactorial('!')">x!</button>
+                <button class="btn btn-rec" onclick="calculateReciprocal()">1/x</button>
+                <button class="btn btn-pi" onclick="appendToDisplay(Math.PI)">π</button>
+  
+            </div>
+        </div>
+        </div>
+        <div class="solver">
+            <h2 style="font-size: 30px;">Quadratic <br> Equation Solver</h2>
+            <form id="quadraticForm">
+                <label for="a">a:</label>
+                <input type="number" id="a" required>
+                <label for="b">b:</label>
+                <input type="number" id="b" required>
+                <label for="c">c:</label>
+                <input type="number" id="c" required>
+                <button type="submit">Solve</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </div>
+        <script src="app.js"></script>
+        <script src="quadratic.js"></script>
+    </body>
+    
+</html>
