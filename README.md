@@ -51,14 +51,15 @@ A stylish web-based calculator and quadratic equation solver with a Lana Del Rey
 
 ## File Structure
 
-\`\`\`
-├── index.html          # Main HTML structure
-├── style.css           # Styling and theme
-├── app.js             # Calculator functionality
-├── quadratic.js       # Quadratic equation solver
+```
+├── index.html            # Main HTML structure
+├── style.css             # Styling and theme
+├── app.js                # Calculator functionality
+├── quadratic.js          # Quadratic equation solver
 └── image/
     └── LanaDelRey.jpg # Background image
-\`\`\`
+```
+
 
 ## Installation & Usage
 
