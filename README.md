@@ -2,7 +2,7 @@
 
 A stylish web-based calculator and quadratic equation solver with a Lana Del Rey themed interface created by **Beyza Yılmaz**.
 
-![SS-LDR devre görüntüsü](assets/img/SS-LDR.jpg)
+![SS-LDR ekran görüntüsü](assets/img/SS-LDR.jpg)
 
 ## Features
 
